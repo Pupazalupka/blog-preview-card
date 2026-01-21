@@ -1,0 +1,54 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+}
+
+.blog {
+    width: 340px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid black;
+    box-shadow: 5px 5px 0px black;
+}
+
+.blog-img {
+    background-size: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section {
+    width: 70px;
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.about {
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 20px;
+}
+
+.autor {
+    display: flex;
+    gap: 10px;
+}
+
+.autor-img {
+    width: 35px;
+    height: 35px;
+}
+
+.autor p {
+    text-align: center;
+    margin-top: 7px;
+    padding: 0;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
